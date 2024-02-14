@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+    
+    
+    <div class="header">
+        
+        <img src="./img/android-chrome-192x192.png">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale conosco</a>
+
+        
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-lt">
+            <img src="./img/logo.png" alt="logo do mario" class="logo">
+            <p>Encanadores Mario e Luigi - Resolvendo seus problemas com Estilo! </p>
+            <br>
+            <p>Você está no lugar certo! Temos os melhores profissionais da região.
+                Serviço de alta qualidade, com preço justo e satisfação garantida.-
+                Mario e Luigi!
+            </p>
+            
+            <button onclick="mostrarForm()" >Entre em contato</button>
+        </div>
+        <div>
+            <img src="./img/mario.png" alt="mario e luigi" class="mario-e-luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https://wa.me/5513981434562?text=Quero+ajuda+dos+irm%C3%A3os+Mario" target="_blank" class="link-wpp">
+
+        
+        <img src="./img/whatsapp.png">
+
+
+
+    </a>
+
+    <form
+    class="form-fale-conosco"
+    action="https://formcarry.com/s/WnLtFFtCe-j"
+      method="POST"
+     enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Telefone" type="tel" name="telefone">
+        <textarea placeholder="Diegite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit" class="botaoinput">PEDIR ORÇAMENTO</button>
+    </form>
+</body>
+<script src="script.js"> </script>
+
+
+</html>
